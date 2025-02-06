@@ -265,14 +265,14 @@
 				template_params: templateParams  // The email parameters
 			})
 		})
-		.then(response => response.json())
-		.then(data => {
+		.then(response => response.json());
+		//.then(data => {
 	            //if (data.status === 200) {
 	                alert('Email sent successfully!');
 	            //} else {
 	                //alert('Failed to send email: ' + data.message);
 	            //}
-	        })
+	        //})
 	        //.catch((error) => {
 	        //    alert('Error sending email: ' + error);
 	        //});
