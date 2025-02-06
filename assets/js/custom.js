@@ -267,15 +267,15 @@
 		})
 		.then(response => response.json())
 		.then(data => {
-	            if (data.status === 200) {
+	            //if (data.status === 200) {
 	                alert('Email sent successfully!');
-	            } else {
-	                alert('Failed to send email: ' + data.message);
-	            }
+	            //} else {
+	                //alert('Failed to send email: ' + data.message);
+	            //}
 	        })
-	        .catch((error) => {
-	            alert('Error sending email: ' + error);
-	        });
+	        //.catch((error) => {
+	        //    alert('Error sending email: ' + error);
+	        //});
 	});
 	
 
